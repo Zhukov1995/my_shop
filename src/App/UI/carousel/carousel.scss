@@ -14,6 +14,7 @@
     height: 50px;
     background-color: silver;
     border-radius: 5px;
+    z-index: 1;
 
     &:hover {
         opacity: 1;
@@ -24,15 +25,3 @@
         background-color:silver;
     }
 }
-
-.slick-prev {
-    margin-left: -45px;
-}
-
-.slick-next {
-    margin-right: -45px;
-}
-
-// .slick-track {
-//     margin-left: 50px;
-// }

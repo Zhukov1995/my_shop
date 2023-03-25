@@ -7,11 +7,16 @@ import CardProduct from '../../UI/card-product/card-product';
 import Carousel from '../../UI/carousel/carousel';
 import Advantages from '../../UI/advantages/advantages';
 import Timer from '../../UI/timer/timer';
+import { useEffect } from 'react';
 
 
 const MainPage = () => {
 
     const service = new Service();
+
+    useEffect(() => {
+        window.scrollTo(0,0)
+    }, [])
 
     const showNewModels = service.getNewModels().map(item => {
         return  <CardProduct 
@@ -57,7 +62,7 @@ const MainPage = () => {
                 <img src={imgAbout} alt="about-img" className='about-img'/>
                 <Section title={'О МАГАЗИНЕ'}>
                     <p className='about-description'>
-                        Store — это не просто интернет магазин, мы заботимся о вас, и каждый клиент для нас является особым.
+                        Store_ — это не просто интернет магазин, мы заботимся о вас, и каждый клиент для нас является особым.
                     </p>
                 </Section>
                 <Section title={'НОВИНКИ'}>
@@ -65,7 +70,7 @@ const MainPage = () => {
                         {showNewModels} 
                     </Carousel>
                 </Section>
-                <Section title={'НАШИ ПРЕИМУЩЕСТВА'} backgroundColor={'#f2f2f2'}>
+                <Section title={'НАШИ ПРЕИМУЩЕСТВА'} backgroundColor={'#f7f7f7'}>
                    <Advantages/>
                 </Section>
                 <Section title={'АКЦИОННЫЕ ТОВАРЫ'}>

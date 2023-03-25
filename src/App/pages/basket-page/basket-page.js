@@ -77,6 +77,10 @@ const BasketPage = () => {
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [totalShopCounter])
 
+    useEffect(() => {
+        window.scrollTo(0,0)
+    }, [])
+
 
     const showBasketList = UIarrIDitem.length > 0 ?
         <View
@@ -112,9 +116,9 @@ const View = (props) => {
             <h2>Товары в корзине</h2>
             <div className="description-options">
                 <span className='option_counter'>У вас в корзине: {totalShopCounter} {labelTotalShopCounter}</span>
-                <span className='option_label_count'>Количество</span>
-                <span className='option_label_price'>Стоимость</span>
-                <span className='option_label_delete'>Удалит</span>
+                <span className='label option_label_count'>Количество</span>
+                <span className='label option_label_price'>Стоимость</span>
+                <span className='label option_label_delete'>Удалить</span>
             </div>
             {listBasket}
             <div className="wrapper" style={styleMargin}>
@@ -126,7 +130,6 @@ const View = (props) => {
                         <p className="result-info">*Сумма расчитывается без учета доставки.</p>
                     </div>
                     <button>Оформить заказ</button>
-                    <p>---</p>
                 </div>
             </div>
         </>

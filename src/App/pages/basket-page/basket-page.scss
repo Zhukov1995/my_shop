@@ -4,10 +4,10 @@
     padding-bottom: 0px;
     h1 {
         text-align: center;
-        padding-top: 25vh;
+        margin-top: 35vh;
     }
     h2 {
-        padding: 20px 0px 10px 40px;
+        padding: 20px 0px 10px 50px;
     }
     .description-options {
         width: 95%;
@@ -38,7 +38,7 @@
 
 .result-and-order {
     width: 85%;
-    height: 150px;
+    min-height: 150px;
     margin: 0 auto;
     margin-top: 5px;
     margin-bottom: 100px;
@@ -57,6 +57,7 @@
         width: 300px;
         border-radius: 50px;
         border: none;
+        color: black;
         background-color: rgb(235, 235, 92);
         font-size: 17px;
         &:hover {
@@ -65,6 +66,31 @@
         }
         &:focus {
             border: 1px solid silver;
+        }
+    }
+}
+
+@media(max-width: 500px) {
+    .basket-page {
+        h2 {
+            padding-left: 5px;
+
+        }
+        .description-options {
+            margin-left: 0px;
+        }
+    }
+    .label {
+        display: none;
+    }
+}
+
+@media(max-width: 900px) {
+    .result-and-order {
+        display: flex;
+        flex-flow: column;
+        button {
+            margin-top: 20px;
         }
     }
 }

@@ -3,24 +3,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import './carousel.scss';
 import './carousel.media.scss';
-import { useEffect, useState } from 'react';
 
 const Carousel = (props) => {
-    const [countSlides,setCountSlides] = useState(1);
-
-
-    const checkSizeWindow = () => {
-        const sizeWindow = window.innerWidth;
-        
-        if(sizeWindow < 900) setCountSlides(1);
-        if(sizeWindow > 1000 && sizeWindow < 1500) setCountSlides(2);
-        if(sizeWindow > 1500 && sizeWindow < 1900) setCountSlides(3);
-        if(sizeWindow > 1900) setCountSlides(4);
-    }
-
-    useEffect(() => {
-        checkSizeWindow();
-    },[])
 
     const settings = {
         dots: true,

@@ -27,7 +27,7 @@ const Header = () => {
             <div className="logo">
                 <NavLink to='/' activeclassname='active'>
                     <img src={Logo} alt="logo" className='logo-img' />
-                    <h1 className='logo-logo'>STORE</h1>
+                    <h1 className='logo-logo'>STORE_</h1>
                 </NavLink>
 
             </div>

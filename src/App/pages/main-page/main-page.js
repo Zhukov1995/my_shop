@@ -1,7 +1,7 @@
 import './main-page.scss';
 import './section/sectionChildren.scss';
 import Section from './section/section';
-import imgAbout from './slideAbout.jpg';
+import imgAbout from './about.jpg';
 import Service from '../../Service/service';
 import CardProduct from '../../UI/card-product/card-product';
 import Carousel from '../../UI/carousel/carousel';
@@ -54,7 +54,7 @@ const MainPage = () => {
 
     return (
         <div className='main-page'>
-                {/* <img src={imgAbout} alt="about-img" className='about-img'/> */}
+                <img src={imgAbout} alt="about-img" className='about-img'/>
                 <Section title={'О МАГАЗИНЕ'}>
                     <p className='about-description'>
                         Store — это не просто интернет магазин, мы заботимся о вас, и каждый клиент для нас является особым.

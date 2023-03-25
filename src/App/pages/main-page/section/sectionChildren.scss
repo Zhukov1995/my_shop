@@ -31,5 +31,9 @@
     .wrapper-product-day {
         display: flex;
         flex-flow: column;
+        row-gap: 40px;
+    }
+    .description-product-day {
+        border-radius: 0;
     }
 }

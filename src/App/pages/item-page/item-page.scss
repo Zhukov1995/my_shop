@@ -1,10 +1,9 @@
 .item-page {
     width: 90%;
-    height: 1000px;
     margin: 0 auto;
     padding-top: 80px;
     .wrapper {
-        width: 70%;
+        width: 60%;
         display: flex;
         justify-content: space-between;
         .item-image-block {
@@ -30,8 +29,8 @@
                 }
             }
             .item-target-image {
-                width: 500px;
-                height: 600px;
+                width: 300px;
+                height: auto;
                 display: block;
                 margin: 0 auto;
                 margin: 10px 30px 0 30px;
@@ -46,7 +45,7 @@
             }
             .info-block-list {
                 list-style: none;
-                min-height: 360px;
+                margin-bottom: 50px;
                 li {
                     margin-bottom: 10px;
                     padding-left: 10px;
@@ -85,7 +84,7 @@
     }
     .description {
         border-top: 1px solid black;
-        width: 65%;
+        width: 60%;
         margin-top: 70px;
         margin-left: 0px;
         h3 {
@@ -96,6 +95,58 @@
             li {
                 margin-top: 10px;
             }
+        }
+    }
+}
+
+@media(max-width: 830px) {
+    .item-page {
+        h2 {
+            font-size: 20px;
+        }
+        .wrapper {
+            width: 100%;
+            display: block;
+            .item-image-block {
+                width: 50%;
+            }
+        }
+        .description {
+            width: 90%;
+        }
+    }
+}
+
+@media(max-width: 530px) {
+    .item-page {
+        width: 100%;
+        padding: 80px 5px 0px 5px;
+        .wrapper {
+            .item-image-block {
+                width: auto;
+                height: fit-content;
+                .item-image-list {
+                    li {
+                        img {
+                            max-width: 50px;
+                            height: auto;
+                        }
+                    }
+                }
+                .item-target-image {
+                    width: 230px;
+                    height: fit-content;
+                }
+            }
+            .item-info-block {
+                width: auto;
+                li {
+                    word-wrap: break-word;
+                }
+            }
+        }
+        .description {
+            width: 100%;
         }
     }
 }

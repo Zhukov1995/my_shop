@@ -47,10 +47,18 @@
     .flex-container-1 {
         display: block;
         .advantages-block {
-            max-width: 500px;
+            max-width: 60%;
             height: auto;
             margin: 0 auto;
             padding-top: 0px;
+        }
+    }
+}
+
+@media(max-width: 500px) {
+    .flex-container-1 {
+        .advantages-block {
+            max-width: 90%;
         }
     }
 }

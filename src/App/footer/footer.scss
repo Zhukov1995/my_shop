@@ -1,0 +1,12 @@
+footer {
+    height: 130px;
+    background-color: rgb(236, 236, 232);
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 40px;
+    .info {
+        line-height: 30px;
+    }
+}

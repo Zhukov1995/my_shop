@@ -1,0 +1,21 @@
+.app {
+    width: 100%;
+    max-width: 1900px;
+    margin: 0 auto;
+    .main {
+        width: 100%;
+    }
+    .container-content {
+        margin-top: 70px;
+        margin-bottom: 50px;
+        padding-top: 20px;
+        min-height: 200px;
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20%;
+        gap: 5%;
+        row-gap: 25px;
+        grid-template-rows: 350px;
+        justify-content: center;
+    }
+}
+

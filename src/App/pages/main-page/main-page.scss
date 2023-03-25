@@ -1,0 +1,33 @@
+.main-page {
+    min-height: 100vh;
+    width: 100%;
+    padding-top: 70px;
+    .about-img {
+        object-fit: fill;
+        width: 100%;
+        height: auto;
+    }
+    .about-description {
+        display: block;
+        margin: 0 auto;
+        margin-top: 80px;
+        width: 60%;
+    }
+}
+
+
+@media(max-width: 800px) {
+    .main-page {
+        .about-description {
+            width: 80%;
+        }
+    }
+}
+
+@media(max-width: 600px) {
+    .main-page {
+        .about-description {
+            width: 100%;
+        }
+    }
+}

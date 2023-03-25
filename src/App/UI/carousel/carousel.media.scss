@@ -30,13 +30,6 @@
 
 
 @media(max-width: 600px) {
-    .slick-prev {
-        visibility: hidden;
-    } 
-    
-    .slick-next {
-        visibility: hidden;
-    }
     .slick-slide {
         margin:0 5px;
     }
@@ -44,7 +37,6 @@
         margin-left: -25px;
     }
     .container {
-       
         overflow: hidden;
     }
 }

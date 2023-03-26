@@ -32,7 +32,127 @@
                 "https://avatars.mds.yandex.net/get-mpic/5311850/img_id3629933821039628982.jpeg/orig",
                 "https://avatars.mds.yandex.net/get-mpic/5232651/img_id6578210175164153337.jpeg/orig"
             ],
-            "price": "913 510",
+            "price": "160 510",
+            "newProduct": "true"
+        },
+
+    "Apple MacBook Air 13 Late 2020 ": {
+        "create": 2020,
+        "family": "mac",
+        "name": "Apple MacBook Air 13 Late 2020",
+        "type": "description models",
+        "specifications": [
+            "Экран: 13.3 (2560x1600) IPS, 60 Гц",
+            "Процессор: Apple M1 (8x3.20 ГГц)",
+            "Память: оперативная 8 ГБ (3200 МГц), SSD 256 ГБ, HDD отсутствует",
+            "Видеокарта: Apple graphics 7-core",
+            "Объем видеопамяти: SMA",
+            "Раскладка клавиатуры: только английская",
+            "Операционная система: macOS",
+            "Вес: 1.29 кг"
+        ],
+        "description": [
+            "Ноутбук Apple MacBook Air 13 Late являются одной из самых интригующих новинок «яблочной» компании. Не каждый день вас могут порадовать выпуском не просто компактного, а ультракомпактного и в то же время энергоёмкого ноутбука. Модель Apple MacBook Air 13 Late безупречно справляется с этой ролью.",
+            "Совершенная операционная система.",
+            "Новая операционная система М1 сочетает в себе все характеристики, необходимые для плавной работы ноутбука: увеличенное число графических ядер, оперативную память с объёмом 8 Гб и дополнительной ёмкостью SSD на 256 Гб и многое другое. Ничего лишнего – только качество.",
+            "Безупречный экран.",
+            "При открывании ноутбука Apple MacBook Air 13 Late вы не будете испытывать раздражение от большого количества пятен, следов и царапин. Благодаря олеофобным свойствам, стекло вашего экрана будет сохранять свой аккуратный вид в течение всего пользования, а с антибликовыми элементами вы сможете работать на ноутбуке даже при самом ярком свете солнца."
+        ]
+    },
+
+        "Apple MacBook Air 13 Late 2020 (2560x1600, Apple M1 3.2 ГГц, RAM 8 ГБ, SSD 256 ГБ, Apple graphics 7-core, Space Grey)": {
+            "id": "5558304",
+            "color": "space grey",
+            "name": "Apple MacBook Air 13 Late 2020",
+            "family": "mac",
+            "type": "models",
+            "image": [
+                "https://avatars.mds.yandex.net/get-mpic/5258494/img_id8024084943893703521.jpeg/orig",
+                "https://avatars.mds.yandex.net/get-mpic/5262552/img_id2734319223604829370.jpeg/orig",
+                "https://avatars.mds.yandex.net/get-mpic/5234219/img_id2243874471012996137.jpeg/orig",
+                "https://avatars.mds.yandex.net/get-mpic/4365206/img_id4987343171402429230.png/orig"
+            ],
+            "price": "77 495"
+        },
+
+        "Apple MacBook Air 13 Late 2020 (2560x1600, Apple M1, RAM 8 ГБ, SSD 256 ГБ, Apple graphics 7-core,Grey)": {
+            "id": "5558305",
+            "color": "grey",
+            "name": "Apple MacBook Air 13 Late 2020",
+            "family": "mac",
+            "type": "models",
+            "image": [
+                "https://avatars.mds.yandex.net/get-mpic/1620389/img_id7554540984945722420.jpeg/orig",
+                "https://avatars.mds.yandex.net/get-mpic/4709279/img_id3261028217828513413.jpeg/orig",
+                "https://avatars.mds.yandex.net/get-mpic/5234850/img_id7456456447984593510.jpeg/orig",
+                "https://avatars.mds.yandex.net/get-mpic/5210335/img_id7132129955358968240.jpeg/orig"
+            ],
+            "price": "105 923"
+        },
+
+        "Apple MacBook Air 13 Late 2020 (2560x1600, Apple M1 3.2 ГГц, RAM 8 ГБ, SSD 256 ГБ, Apple graphics 7-core,Gold)": {
+            "id": "5558306",
+            "color": "gold",
+            "name": "Apple MacBook Air 13 Late 2020",
+            "family": "mac",
+            "type": "models",
+            "image": [
+                "https://avatars.mds.yandex.net/get-mpic/5277279/img_id8753779475726982342.jpeg/orig",
+                "https://avatars.mds.yandex.net/get-mpic/5236802/img_id4838850647475460589.jpeg/orig",
+                "https://avatars.mds.yandex.net/get-mpic/6374009/img_id3095691471943251535.jpeg/orig",
+                "https://avatars.mds.yandex.net/get-mpic/3614670/img_id5434543729897455565.jpeg/orig"
+            ],
+            "price": "77 880"
+        },
+
+    "Apple MacBook Pro 14 2023": {
+        "create": 2023,
+        "family": "mac",
+        "name": "Apple MacBook Pro 14 2023",
+        "type": "description models",
+        "specifications": [
+            "Экран: 14.2 (3024×1964) Liquid Retina XDR, 120 Гц",
+            "Процессор: Apple M2 Pro",
+            "Память: оперативная 16 ГБ, SSD 512 ГБ, HDD отсутствует",
+            "Видеокарта: Apple graphics 16-core",
+            "Объем видеопамяти: SMA",
+            "Раскладка клавиатуры: только английская",
+            "Операционная система: macOS",
+            "Вес: 1.6 кг"
+        ],
+        "description": [
+           "Ноутбук Apple MacBook Pro 14 2023 являются одной из самых интригующих новинок «яблочной» компании. Не каждый день вас могут порадовать выпуском не просто компактного, а ультракомпактного и в то же время энергоёмкого ноутбука. Модель Apple MacBook Air 13 Late безупречно справляется с этой ролью."
+        ]
+    },
+
+        "Apple MacBook Pro 14 2023 (3024×1964, Apple M2 Pro, RAM 16 ГБ, SSD 1 ТБ, Apple graphics 19-core,Space Grey)": {
+            "id": "5558307",
+            "color": "space grey",
+            "name": "Apple MacBook Pro 14 2023",
+            "family": "mac",
+            "type": "models",
+            "image": [
+                "https://avatars.mds.yandex.net/get-mpic/1925356/img_id8954447017960522633.png/orig",
+                "https://avatars.mds.yandex.net/get-mpic/5314345/img_id2240718011194361158.png/orig",
+                "https://avatars.mds.yandex.net/get-mpic/1928572/img_id8944616140875917714.png/orig",
+                "https://avatars.mds.yandex.net/get-mpic/4407413/img_id4123665065414144725.jpeg/orig"
+            ],
+            "price": "205 230"
+        },
+
+        "Apple MacBook Pro 14 2023 (3024×1964, Apple M2 Max, RAM 32 ГБ, SSD 1 ТБ, Apple graphics 19-core,Silver)": {
+            "id": "5558308",
+            "color": "silver",
+            "name": "Apple MacBook Pro 14 2023",
+            "family": "mac",
+            "type": "models",
+            "image": [
+                "https://avatars.mds.yandex.net/get-mpic/4322217/img_id1825341691652941384.jpeg/orig",
+                "https://avatars.mds.yandex.net/get-mpic/5207439/img_id2718555511726079287.jpeg/orig",
+                "https://avatars.mds.yandex.net/get-mpic/1554397/img_id5425127127699816760.jpeg/orig",
+                "https://avatars.mds.yandex.net/get-mpic/7979270/img_id511524510298003881.jpeg/orig"
+            ],
+            "price": "302 825",
             "newProduct": "true"
         }
 }

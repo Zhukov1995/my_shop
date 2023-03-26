@@ -101,6 +101,18 @@
     }
 }
 
+@media(min-width: 1300px) {
+    .item-page {
+        .wrapper {
+            .item-image-block {
+                .item-target-image {
+                    width: 500px;
+                }
+            }
+        }
+    }
+}
+
 @media(max-width: 830px) {
     .item-page {
         h2 {

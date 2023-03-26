@@ -1,7 +1,7 @@
 .nav_bar {
     height: 100%; 
     width: 80px; 
-    top: 40px;
+    top: 30px;
     position: fixed;
     transition:all 1.5s;
     margin-left: -80px;
@@ -30,7 +30,7 @@
 .active_nav {
     opacity: 1;
     position: absolute;
-    top: 40px;
+    top: 30px;
     position: fixed;
     margin-left: 0px;
     transition: all 1s;

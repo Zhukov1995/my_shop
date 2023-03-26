@@ -16,7 +16,7 @@ import deleteImg from './delete.svg'
 const CardBasket = (props) => {
     const { image, title, price, salePrice, color, memory, item } = props;
 
-    const [itemCounter, setItemCounter] = useState(1);
+    const [itemCounter, setItemCounter] = useState(0);
 
     const UIarrIDitem = useSelector(state => state.UIarrIDitem)
     const resultArrIDitem = useSelector(state => state.resultArrIDitem)
@@ -26,7 +26,7 @@ const CardBasket = (props) => {
     // функция проверки копий одинаковых товаров.Меняем локальный state только в случае если копий больше одной 
     const localCheckingCopies = (array, newID) => {
         const localItemCounter = array.filter(item => item === newID);
-        if (localItemCounter.length > 1) {
+        if (localItemCounter.length >= 1) {
             setItemCounter(localItemCounter.length);
         }
         console.log(localItemCounter)

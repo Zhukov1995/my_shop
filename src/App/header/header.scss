@@ -1,7 +1,7 @@
 header {
     width: 100%;
     max-width: 1900px;
-    height: 70px;
+    height: 60px;
     display: flex;
     justify-content: space-between;
     position: fixed;
@@ -12,7 +12,7 @@ header {
         width: 30px;
         position: absolute;
         left: 25px;
-        top: 23px;
+        top: 17px;
         transition: all 1.5s;
     }
     .active {
@@ -20,12 +20,12 @@ header {
         transition: all 1.5s;
     }
     .logo {
-        width: 170px;
-        line-height: 70px;
+        width: 165px;
+        line-height: 60px;
         margin-left: 65px;
         .logo-img {
             width: 45px;
-            height: 70px;
+            height: 55px;
         }
         .logo-logo {
             margin: 0;
@@ -58,7 +58,7 @@ header {
         width: 60px;
         img {
             width: 35px;
-            margin-top: 17.5px;
+            margin-top: 10px;
         }
         a {
             text-decoration: none;

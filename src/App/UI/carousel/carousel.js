@@ -67,7 +67,7 @@ const Carousel = (props) => {
               settings: {
                 slidesToShow: 2,
                 centerMode: true,
-                centerPadding: '140px',
+                centerPadding: '-45px',
                 slidesToScroll: 1
               }
             },

@@ -16,7 +16,7 @@ const Header = () => {
     const classBurger = navBarFlag ? 'burger active' : 'burger';
 
     const styleForCounter = {
-        color: totalShopCounter > 0 ? 'red' : 'black',
+        color: totalShopCounter > 0 ? 'yellow' : 'black',
         fontSize: totalShopCounter > 0 ? '17px' : '15px'
     }
 

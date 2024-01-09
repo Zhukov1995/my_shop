@@ -1,17 +1,17 @@
 import Service from "../../Service/service";
 import CardProduct from "../../UI/card-product/card-product";
-import { useEffect } from "react";
+import { useEffect} from "react";
 import "./category-page.scss"
 
 
 const CategoryPage = ({typeTechnic}) => {
 // typeTechnic - обязательный параметр,передается в виде строки
-
     const service = new Service();
 
     useEffect(() => {
         window.scrollTo(0,0)
-    }, [])
+        console.log('hello')
+    }, []);
 
     const showCategoryList = service.getTargetTechnic(typeTechnic).map(item => {
         return <CardProduct 

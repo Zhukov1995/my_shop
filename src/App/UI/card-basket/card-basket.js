@@ -49,9 +49,14 @@ const CardBasket = (props) => {
 
     // функция добавления ID в результирующий массив
     const addnewIDBasket = (id) => {
-        dispatch(resultAddNewID(id))
-        setItemCounter(itemCounter + 1)
-        dispatch(incTotalShopCounter())
+        if(itemCounter < 5) {
+            dispatch(resultAddNewID(id))
+            setItemCounter(itemCounter + 1)
+            dispatch(incTotalShopCounter())
+        } else {
+            alert('Уважаемый клиент, если вам нужно большее количество товара, свяжитесь с нашим менеджером Телефон: 8 (977) 649-95-26');
+        }
+
     }
 
     // функция полного удаления карточки товара из корзины.Удаляем из UI и из результирующего массива

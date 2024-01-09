@@ -13,11 +13,11 @@ header {
         position: absolute;
         left: 25px;
         top: 16px;
-        transition: all 1.5s;
+        transition: all 0.5s;
     }
     .active {
         transform:rotate(90deg);
-        transition: all 1.5s;
+        transition: all 0.5s;
     }
     .logo {
         width: 170px;
@@ -67,10 +67,6 @@ header {
         .active {
             text-decoration: none;
             color:black;
-            img {
-                width: 38px; 
-                margin-top: 15.5px;
-            }
         }
     }
 }

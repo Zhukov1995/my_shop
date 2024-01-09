@@ -30,13 +30,14 @@
         width: 350px;
         text-align: center;
         button {
-            background-color:rgb(231, 229, 229);
-            border: 1px solid rgb(221, 220, 220);
+            background-color:rgb(193, 193, 193);
+            border: none;
             cursor:pointer; 
             font-size: 12px;
             width: 30px;
             height: 15px;
             margin: 5px;
+            border-radius:5px;
         }
         }
     .price {
